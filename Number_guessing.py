@@ -41,7 +41,7 @@ while user_num != machine_num:
 # print result
 
 else:
-    print("Well done !! you guess the same number as machine")
+    print("Well done !! you guess same as machine")
 
     # print how many times tried
     print("You have try {} times to guess correct number".format(len(list_guesnum)))
