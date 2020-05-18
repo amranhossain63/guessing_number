@@ -6,7 +6,6 @@ Created on Mon May 18 00:52:24 2020
 @author: hossain
 """
 
-
 #Guessing Number
 
 # Import package for random numbor
@@ -15,9 +14,7 @@ import random
 
 #TO DO : Get one number by user from 1 to 100
 
-
 list_guesnum = []   #create empty list
-
 
 machine_num = random.randint(1,100)     #machine random number
 
@@ -27,9 +24,7 @@ user_num =int(input("Plesae enter any number betwwen 1 and 100 :"))
 
 list_guesnum.append(user_num)
 
-
 # TO Do : Compare user number with machine number
-
 
 while user_num != machine_num:
     if user_num > machine_num:
